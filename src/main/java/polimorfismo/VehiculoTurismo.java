@@ -9,10 +9,13 @@ public class VehiculoTurismo extends Vehiculo{
 		this.numeroPuertas = numeroPuertas;
 	}
 	
+	//Métodos Accesores getters
 	public int getnumeroPuertas() {
 		return numeroPuertas;
 	}
 	
+	//Sobreescritura del método mostrarDatos
+	@Override
 	public void mostrarDatos() {
 		System.out.println("Matricula: "+matricula+
 				"\nMarca: "+marca+
